@@ -1,0 +1,38 @@
+.newtask{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-top:-2rem;
+    padding:0px;
+    gap:8px;
+}
+
+.newtask textarea{
+    width: 39rem;
+    background: var(--gray-400);
+    color: var(--gray-100);
+    font-size:1.2rem;
+    resize: none;
+    height: 50px;
+    padding:1rem;
+    border-radius: 8px; 
+    border:0;
+    overflow:hidden;
+}
+.button{
+    background: var(--blueDark);
+    color: var(--gray-100);
+    border: 1px solid var(--blueDark);
+    border-radius: 8px;
+    height: 50px;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    
+}
