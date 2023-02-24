@@ -14,11 +14,14 @@
     font-size:1.2rem;
     resize: none;
     height: 50px;
-    padding:1rem;
+    padding: 0.75rem;
     border-radius: 8px; 
-    border:0;
     overflow:hidden;
+    border:0;
+
 }
+
+
 .button{
     background: var(--blueDark);
     color: var(--gray-100);
@@ -35,4 +38,16 @@
     justify-content: center;
     gap: 0.5rem;
     
+}
+
+
+
+.button:hover{
+    border: 1px solid var(--blue);
+    background: var(--blue);
+    color:var(--gray-100);
+    font-weight:bold;
+    cursor: pointer;
+
+    transition: background-color 0.1s;
 }
