@@ -28,6 +28,8 @@
 }
 
 body{
+    width: 100vw;
+    height: 100vh;
     background: var(--gray-600);
     color:var(--gray-100);
     -webkit-font-smoothing: antialiased;

@@ -1,0 +1,31 @@
+.tasks{
+    display: flex;
+    align-items: center;
+    width:760px;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.taskManeger, .completedTask{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size:17px;
+}
+
+.taskManeger strong {
+    color: var(--blue);  
+}
+
+.completedTask strong{
+    color: var(--purple);
+}
+
+.counter {
+    background-color: var(--gray-500);
+    color: var(--gray-200);
+    padding:2px 8px;
+    border-radius:9px;
+    font-weigth: bold;
+}
